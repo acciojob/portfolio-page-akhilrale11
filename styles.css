@@ -1,2 +1,53 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
 
-/* Your CSS Code here. */
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+header h1 {
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+header a {
+    color: #0077b5;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 20px;
+}
+
+#skills, #projects {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+	
